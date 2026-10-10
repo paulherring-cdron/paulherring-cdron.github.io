@@ -1,2 +1,0 @@
-Save the re-exported capability statement in this folder as
-Caladron_Capability_Statement.pdf (exact name) and delete this file.
