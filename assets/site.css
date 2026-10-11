@@ -200,7 +200,7 @@ p + p { margin-top: 1rem; }
 .divider svg { width: 168px; height: 18px; display: block; }
 
 /* Mobilization and delivery rails: one requirement, two tracks */
-.rail-title { margin-top: 2.5rem; font-size: .8rem; color: var(--slate); max-width: none; }
+.rail-title { margin-top: 2.5rem; font-size: .85rem; color: var(--slate); max-width: 70ch; }
 .rails { display: grid; row-gap: 1.5rem; margin-top: 1.25rem; }
 .rail-row { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); align-items: start; }
 .rail-name { font-size: .7rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--navy); line-height: 14px; padding-right: 1rem; }
@@ -209,7 +209,7 @@ p + p { margin-top: 1rem; }
 .rail li { position: relative; height: 3.6rem; padding: 1.5rem .25rem 0; text-align: center; font-size: .7rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--brass-ink); line-height: 1.3; }
 .rail li::before { content: ""; position: absolute; top: 2px; left: 50%; width: 10px; height: 10px; transform: translateX(-50%) rotate(45deg); background: var(--parchment); border: 1.5px solid var(--brass); box-sizing: border-box; z-index: 1; }
 .rail li span { position: relative; background: var(--parchment); padding-inline: .3rem; }
-.rail-mission li:first-child::after { content: ""; position: absolute; left: 50%; top: 7px; width: 1px; height: 5.1rem; background: var(--brass); }
+.rail-mission li:first-child::before { background: var(--brass); }
 @media (max-width: 760px) {
   .rails { row-gap: 2rem; }
   .rail-row { grid-template-columns: minmax(0, 1fr); row-gap: .6rem; }
