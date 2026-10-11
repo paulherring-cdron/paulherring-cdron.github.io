@@ -200,7 +200,8 @@ p + p { margin-top: 1rem; }
 .divider svg { width: 168px; height: 18px; display: block; }
 
 /* Mobilization and delivery rails: one requirement, two tracks */
-.rail-title { margin-top: 2.5rem; font-size: .85rem; color: var(--slate); max-width: 70ch; }
+.rail-title { margin-top: 0; font-size: .85rem; color: var(--slate); max-width: 70ch; }
+.after-rails { margin-top: 3.5rem; }
 .rails { display: grid; row-gap: 1.5rem; margin-top: 1.25rem; }
 .rail-row { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); align-items: start; }
 .rail-name { font-size: .7rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--navy); line-height: 14px; padding-right: 1rem; }
