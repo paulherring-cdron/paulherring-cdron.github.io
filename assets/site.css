@@ -195,9 +195,9 @@ p + p { margin-top: 1rem; }
   .hero-art-gap { max-width: 380px; }
 }
 
-/* Sword divider between sections (the 1C horizontal sword) */
-.divider { display: flex; justify-content: center; padding-block: .25rem; }
-.divider svg { width: 168px; height: 18px; display: block; }
+/* Section divider: one hairline in navy with a small brass diamond at its centre */
+.divider { position: relative; width: min(100% - 2.5rem, var(--col)); margin-inline: auto; height: 1px; background: rgba(27, 42, 65, .4); }
+.divider::after { content: ""; position: absolute; left: 50%; top: 50%; width: 8px; height: 8px; transform: translate(-50%, -50%) rotate(45deg); background: var(--brass); }
 
 /* Mobilization and delivery rails: one requirement, two tracks */
 .rail-title { margin-top: 0; font-size: .85rem; color: var(--slate); max-width: 70ch; }
